@@ -84,7 +84,7 @@ p{
     opacity: 70%;
 }
 
-@media screen and (min-width:1000px) and (max-width: 1600px) {
+@media screen and (min-width:10px) and (max-width: 1700px) {
     /* .sedan{
         
         
@@ -105,7 +105,7 @@ p{
     }
     .suvs{
         border-top-right-radius: 0px; 
-        transition: ease-in 0.1s;   
+  
     }
     .sedan{
         border-top-right-radius: 10px;
