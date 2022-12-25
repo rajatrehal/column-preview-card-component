@@ -1,3 +1,6 @@
+body{
+   margin:100px;
+}
 .outerpart{
     display: flex;
     justify-content: center;
