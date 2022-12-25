@@ -1,12 +1,8 @@
-body{
-   margin:500px;
-}
 .outerpart{
     display: flex;
     justify-content: center;
     align-items: center;
     
-    border: 3px solid black;
     
      
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -26,7 +22,7 @@ body{
    
 }
 #child{
-    flex: auto;
+    flex:1;
 
     padding: 50px;
     width: 210px;
@@ -88,9 +84,8 @@ p{
     
     opacity: 70%;
 }
-.btn{
-}
-@media screen and (max-width: 1351px) {
+
+@media only screen and (max-width: 1556px) {
     .sedan{
         border-bottom-left-radius: 0px;
         
@@ -108,9 +103,10 @@ p{
   }
   
   /* When a screen is 600px or smaller, the background color will be blue */
-  @media screen and (max-width: 1041px) {
+  @media only screen and (max-width: 1306px) {
     .suvs{
-        border-top-right-radius: 0px;    
+        border-top-right-radius: 0px; 
+        transition: ease-in 0.1s;   
     }
     .sedan{
         border-top-right-radius: 10px;
