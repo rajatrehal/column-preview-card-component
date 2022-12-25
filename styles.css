@@ -56,7 +56,7 @@
 
 }
 body{
-margin:50;
+margin:200px
 }
 input{
 display: inline;
@@ -87,7 +87,7 @@ p{
 }
 .btn{
 }
-@media screen and (max-width: 1536px) {
+@media screen and (max-width: 1736px) {
     .sedan{
         border-bottom-left-radius: 0px;
         
@@ -105,7 +105,7 @@ p{
   }
   
   /* When a screen is 600px or smaller, the background color will be blue */
-  @media screen and (max-width: 1226px) {
+  @media screen and (max-width: 1426px) {
     .suvs{
         border-top-right-radius: 0px;    
     }
