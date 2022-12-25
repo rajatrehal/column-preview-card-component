@@ -1,0 +1,115 @@
+.outerpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 3px solid black;
+    
+     
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: auto;
+    width: auto;
+}
+.container{
+    margin:200px;
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+   border-radius: 10px;
+      color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+
+   
+}
+#child{
+    flex: auto;
+
+    padding: 50px;
+    width: 210px;
+    height:400px;
+
+
+    font-size: large;
+}
+.sedan{
+    background-color: #ff9900;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+
+
+
+    font-family:'Gill Sans', Calibri, 'Trebuchet MS';
+}
+.suvs{
+    background-color: #008080;
+
+
+
+}
+.luxury{
+    background-color: #004d4d;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+body{
+margin:100px
+}
+input{
+display: inline;
+    margin-top:40px;
+      background-color: white;
+      border: white;
+      border-radius: 50px;
+      height: 50px;
+      width:150px;
+      font-size: 100%;
+
+      opacity:90%;
+    
+}
+.btn-luxury{
+    color:#004d4d;
+}
+.btn-suv{
+    color: #008080;
+}
+.btn-sedan{
+    color: #ff9900;
+
+}
+p{
+    
+    opacity: 70%;
+}
+.btn{
+}
+@media screen and (max-width: 1536px) {
+    .sedan{
+        border-bottom-left-radius: 0px;
+        
+     
+    }
+    .suvs{
+        border-top-right-radius: 10px;
+
+    }
+    .luxury{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+  }
+  
+  /* When a screen is 600px or smaller, the background color will be blue */
+  @media screen and (max-width: 1226px) {
+    .suvs{
+        border-top-right-radius: 0px;    
+    }
+    .sedan{
+        border-top-right-radius: 10px;
+    }
+  }
