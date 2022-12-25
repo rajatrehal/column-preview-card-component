@@ -10,21 +10,23 @@
     width: auto;
 }
 .container{
-    margin:50px;
+    margin:200px;
     display: flex;
     justify-content:center;
     flex-wrap:wrap;
    border-radius: 10px;
       color:white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   
+    border-radius: 20px;
 
    
 }
 #child{
+    flex:1;
 
     padding: 50px;
-    width: 150px;
+    width: 210px;
+    height:400px;
 
 
     font-size: large;
@@ -83,9 +85,9 @@ p{
     opacity: 70%;
 }
 
-@media only screen and (max-width: 1556px) {
-    .sedan{
-        border-bottom-left-radius: 0px;
+@media screen and (min-width:1250px) and (max-width: 1556px) {
+    /* .sedan{
+        
         
      
     }
@@ -97,16 +99,24 @@ p{
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         border-top-right-radius: 0px;
+    } */
+    .container{
+        flex-direction: column;
+      
     }
-  }
-  
-  /* When a screen is 600px or smaller, the background color will be blue */
-  @media only screen and (max-width: 1306px) {
     .suvs{
         border-top-right-radius: 0px; 
         transition: ease-in 0.1s;   
     }
     .sedan{
         border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+
+    }
+    .luxury{
+         border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px; 
+        border-top-right-radius: 0px;
     }
   }
+  
